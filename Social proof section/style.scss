@@ -1,0 +1,102 @@
+$very-dark-magenta: hsl(300, 43%, 22%);
+$soft-pink: hsl(333, 80%, 67%);
+$dark-grayish-magenta: hsl(303, 10%, 53%);
+$light-grayish-magenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+body {
+  width: 1440px;
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  // Weights: 400, 500, 700
+  color: $very-dark-magenta;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+.banner {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 0.75rem;
+}
+
+.intro {
+  margin: 5rem;
+  width: 33%;
+}
+
+.descr {
+  color: $dark-grayish-magenta;
+  line-height: 1.4rem;
+  font-weight: 500;
+}
+
+.bgs {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.bg {
+  position: fixed;
+}
+
+.bgtop {
+  transform: translate(-100%, -150%);
+}
+
+.bgbottom {
+  transform: translate(50%, 35%);
+}
+
+.star {
+  font-weight: 700;
+  background-color: $light-grayish-magenta;
+  padding: 1rem;
+  margin: 1rem;
+  background-repeat: repeat-x;
+}
+
+.opinions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opinion {
+  background-color: $very-dark-magenta;
+  color: $light-grayish-magenta;
+  margin: 1rem;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 2rem;
+  line-height: 1.4rem;
+}
+.name {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.buyer {
+  color: $soft-pink;
+  margin-top: 0;
+  padding: 0;
+}
+
+.photo {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100px;
+  left: 120px;
+}

@@ -1,0 +1,83 @@
+body {
+  width: 1440px;
+  font-size: 15px;
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  color: #502050; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+  .attribution a {
+    color: #3e52a3; }
+
+.banner {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 0.75rem; }
+
+.intro {
+  margin: 5rem;
+  width: 33%; }
+
+.descr {
+  color: #937b92;
+  line-height: 1.4rem;
+  font-weight: 500; }
+
+.bgs {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1; }
+
+.bg {
+  position: fixed; }
+
+.bgtop {
+  transform: translate(-100%, -150%); }
+
+.bgbottom {
+  transform: translate(50%, 35%); }
+
+.star {
+  font-weight: 700;
+  background-color: #f7f2f7;
+  padding: 1rem;
+  margin: 1rem;
+  background-repeat: repeat-x; }
+
+.opinions {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.opinion {
+  background-color: #502050;
+  color: #f7f2f7;
+  margin: 1rem;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 2rem;
+  line-height: 1.4rem; }
+
+.name {
+  font-weight: 700;
+  margin: 0;
+  padding: 0; }
+
+.buyer {
+  color: #ee68a4;
+  margin-top: 0;
+  padding: 0; }
+
+.photo {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100px;
+  left: 120px; }
+
+/*# sourceMappingURL=style.css.map */
