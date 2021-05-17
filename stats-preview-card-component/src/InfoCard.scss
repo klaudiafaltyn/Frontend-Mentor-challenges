@@ -25,11 +25,15 @@ $slightly-transparent-white2: hsla(0, 0%, 100%, 0.6);
   width: 540px;
   height: 450px;
   background-color: $dark-desaturated-blue;
-  border-radius: 5px;
+  border-radius: 5px 0 0 5px;
+  padding: 50px 0;
+}
+
+.subContainer {
+  padding: 0 65px;
 }
 
 .hugeTxtField {
-  padding: 50px;
   padding-bottom: 0px;
   //   font-family: "Lexend Deca", sans-serif;
   font-family: "Inter", sans-serif;
@@ -41,17 +45,51 @@ $slightly-transparent-white2: hsla(0, 0%, 100%, 0.6);
 .smallTxtField {
   color: $slightly-transparent-white2;
   font-size: 15px;
-  padding: 50px;
-  padding-top: 20px;
+  margin: 40px 0;
   line-height: 25px;
 }
 
-// .violetImg {
-// //   background: $soft-violet;
-// }
+.photo {
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+  border-radius: 0 5px 5px 0;
+}
 
-.photo{
-    height: 100%;
-    overflow: hidden;
-    border-radius: 5px;
+.violetWord {
+  color: $soft-violet;
+}
+
+.violetOpacity {
+  position: absolute;
+  background-color: $soft-violet;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+}
+
+.violetImg {
+  position: relative;
+}
+
+.numbers {
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tile__top {
+  color: $slightly-transparent-white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+
+}
+
+.tile__bottom {
+  color: $slightly-transparent-white2;
+  text-transform: uppercase;
+  margin-top: 2px;
+
 }
